@@ -3,10 +3,10 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title('Netflix')
-root.iconbitmap('/Users/faizhamid/PycharmProjects/PyTkinterGUI/imges/netflix-icon.png')
+root.iconbitmap('/Users/faizhamid/PycharmProjects/PyTkinterGUI/images/netflix-icon.png')
 
 
-my_img = ImageTk.PhotoImage(Image.open("imges/howItEnds.png"))
+my_img = ImageTk.PhotoImage(Image.open("images/howItEnds.png"))
 my_label = Label(image=my_img)
 my_label.pack()
 
